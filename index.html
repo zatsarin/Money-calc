@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk-Uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+    <title>Покупюрка</title>
+</head>
+
+<body onload="clearPage()">
+    <div id=mainDiv>
+        <header>Калькулятор для банкнот та монет</header>
+        <div id=labelsDiv>
+            <label>Загально:</label>
+            <label id=totalLb>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb1>1000</label>
+            <input type="number" id=input1 onchange="calcSumm(input1,lb1,lb2)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb2>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb3>500</label>
+            <input type="number" id=input2 onchange="calcSumm(input2,lb3,lb4)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb4>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb5>200</label>
+            <input type="number" id=input3 onchange="calcSumm(input3,lb5,lb6)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb6>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb7>100</label>
+            <input type="number" id=input4 onchange="calcSumm(input4,lb7,lb8)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb8>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb9>50</label>
+            <input type="number" id=input5 onchange="calcSumm(input5,lb9,lb10)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb10>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb11>20</label>
+            <input type="number" id=input6 onchange="calcSumm(input6,lb11,lb12)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb12>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb13>10</label>
+            <input type="number" id=input7 onchange="calcSumm(input7,lb13,lb14)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb14>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb15>5</label>
+            <input type="number" id=input8 onchange="calcSumm(input8,lb15,lb16)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb16>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb17>2</label>
+            <input type="number" id=input9 onchange="calcSumm(input9,lb17,lb18)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb18>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb19>1</label>
+            <input type="number" id=input10 onchange="calcSumm(input10,lb19,lb20)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb20>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb21>0.50</label>
+            <input type="number" id=input11 onchange="calcSumm(input11,lb21,lb22)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb22>0.00</label>
+        </div>
+        <div class=inputsDiv>
+            <label id=lb23>0.10</label>
+            <input type="number" id=input12 onchange="calcSumm(input12,lb23,lb24)"
+                onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+            <label id=lb24>0.00</label>
+        </div>
+    </div>
+</body>
+
+</html>

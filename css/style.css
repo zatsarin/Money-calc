@@ -1,0 +1,86 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+#mainDiv {
+    background-color: white;
+    margin: 60px auto;
+    height: 800px;
+    width: 30%;
+}
+
+header {
+    height: 10%;
+    background-color: RGB(45, 62, 80);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#labelsDiv {
+    height: 20%;
+    background-color: RGB(0, 136, 122);
+}
+
+#labelsDiv {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;
+
+}
+
+#labelsDiv label {
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    color: white;
+}
+
+
+#totalLb {
+    width: 100%;
+    text-align: center;
+
+}
+
+.inputsDiv {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+
+}
+
+.inputsDiv label {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.inputsDiv input {
+    width: 45%;
+    height: 1.5em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+
+}
